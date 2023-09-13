@@ -257,29 +257,25 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'October 2009 - May 2015',
+    location: 'University of Lagos',
+    title: 'B.Sc in Mechanical Engineering',
+    content: <p>As a mechanical engineering student, my education provided a comprehensive foundation in mathematics, physics, and engineering principles, enabling me to delve into core courses covering topics like fluid mechanics, heat transfer, machine design, and control systems. I gained invaluable hands-on experience through laboratory work and became proficient in computer-aided design (CAD). Problem-solving, teamwork, and effective communication were emphasized throughout, and I honed my project management skills by working on engineering projects. Ethical considerations and professionalism were central to my education, and I had opportunities for internships or co-op programs to apply classroom knowledge in real-world settings.</p>,
+  }
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2022 - December 2022',
+    location: 'eConnect',
+    title: 'Full Stack Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li></li>
+        </ul>
       </p>
+      
     ),
   },
   {
