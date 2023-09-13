@@ -272,16 +272,20 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         <ul>
-          <li></li>
+          <li>Implemented frontend solutions using Reactjs, React-Native and MongoDB.</li>
+          <li>Implemented backend solutions using Nodejs, Express, and Nest, resulting in a high-performing and scalable system.</li>
+          <li>Expertly managed and maintained the database system using mongoDB, ensuring data integrity and availability.</li>
+          <li>Collaborated effectively with cross-functional teams to clarify project requirements and proposals, contributing to project success.</li>
+          <li>Consistently met project specifications and deadlines throughout the software lifecycle, delivering high-quality software solutions.</li>
         </ul>
       </p>
       
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2022 - June 2022',
+    location: 'PennyCanny',
+    title: 'FullStack Developer',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
