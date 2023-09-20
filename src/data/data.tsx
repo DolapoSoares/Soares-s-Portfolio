@@ -111,20 +111,20 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Databases',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'MongoDb',
+        level: 9,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'PostgresQl',
+        level: 5,
       },
       {
-        name: 'Spanish',
-        level: 3,
-      },
+        name: 'firebase',
+        level: 7
+      }
     ],
   },
   {
@@ -136,11 +136,23 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 8,
       },
       {
         name: 'GraphQL',
-        level: 6,
+        level: 5,
+      },
+      {
+        name: 'HTML',
+        level: 9,
+      },
+      {
+        name: 'CSS',
+        level: 8,
+      },
+      {
+        name: 'GraphQL',
+        level: 5,
       },
     ],
   },
@@ -166,16 +178,8 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+        level: 6,
+      }
     ],
   },
 ];
@@ -288,11 +292,32 @@ export const experience: TimelineItem[] = [
     title: 'FullStack Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li>Utilized AWS for production and quality assurance testing, ensuring a seamless and reliable deployment process.</li>
+        <li>Designed new UI components for the interactive library using storybook, enhancing the overall user experience.</li>
+        <li>Implemented design solutions and conducted root cause analysis on component failures, contributing to system stability and reliability.</li>
+        <li>Collaborated effectively with cross-functional teams to clarify project requirements and proposals, contributing to project success.</li>
+        <li>Developed Single Page Applications using Javascript frameworks like HandlebarsJs,Nodejs.</li>
+      </ul>
+    </p>
     ),
   },
+  {
+    date: 'October 2020 - March 2022',
+    location: 'Decagon',
+    title: 'Software Developer',
+    content: (
+      <p>
+      <ul>
+        <li>Developed full-stack applications using Node, Express on the backend, and React on the frontend, delivering highly interactive and user-friendly experiences.</li>
+        <li>Managed database systems using SQL (MySQL) and state and HTTP requests with Axios, ensuring seamless data management.</li>
+        <li>Installed new systems and updated modifications for existing systems, ensuring the technology infrastructure was up-to-date and secure.</li>
+        <li>Built high-quality applications using React, JavaScript, and Nodejs and designed testable code and applications using the latest technical features.</li>
+        <li>Maintained client information and accounts while ensuring confidentiality, upholding professional ethics and standards.</li>
+      </ul>
+    </p>
+    ),
+  }
 ];
 
 /**
@@ -329,8 +354,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'soaresdolapo@gmail.com',
+      href: 'mailto:soaresdolapo@gmail.com',
     },
     {
       type: ContactType.Location,
