@@ -314,18 +314,18 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Lagos, Nigeria',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'DolapoSoares',
+      href: 'https://github.com/DolapoSoares',
     },
   ],
 };
