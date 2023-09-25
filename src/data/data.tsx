@@ -119,7 +119,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'PostgresQl',
-        level: 5,
+        level: 6,
+      },
+      {
+        name: 'SQL',
+        level: 7
       },
       {
         name: 'firebase',
@@ -189,13 +193,13 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'woozeee',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
+    title: 'Pennycanny',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
@@ -211,49 +215,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+  }
 ];
 
 /**
