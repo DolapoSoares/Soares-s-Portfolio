@@ -305,7 +305,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: "Here are the different options to reach me. Let's work together.",
+  // description: "Here are the different options to reach me. Let's work together.",
   items: [
     {
       type: ContactType.Email,
@@ -317,11 +317,15 @@ export const contact: ContactSection = {
       text: 'Lagos, Nigeria',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
-    // {
-    //   type: ContactType.Instagram,
-    //   text: '@tbakerx',
-    //   href: 'https://www.instagram.com/tbakerx/',
-    // },
+    {
+      type: ContactType.LinkedIn,
+      text: 'Dolapo Soares',
+      href: 'https://www.linkedin.com/in/dolapo-soares-74b260121/',
+    },
+    {
+      type: ContactType.Phone,
+      text: '+2348088644250',
+    },
     {
       type: ContactType.Github,
       text: 'DolapoSoares',
