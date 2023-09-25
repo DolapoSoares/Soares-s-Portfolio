@@ -205,7 +205,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'NPFcmris',
-    description: 'Give a short description of your project here.',
+    description: 'This portal is designed to enable motor vehicle owners comply with regulatory requirements by providing information online about their vehicles, its ownership and other necessary details that will support the Police in maintaining information on vehicles.',
     url: 'https://cmris.npf.gov.ng/signup',
     image: porfolioImage4,
   }
