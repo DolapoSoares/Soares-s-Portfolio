@@ -193,20 +193,20 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Pennycanny',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    description: 'PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel.',
+    url: 'https://pennycanny.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'bgHealth',
+    description: 'Black girl vitamins is a health supplement company that caters to the wellness of black women through the supply of vitamins.',
+    url: 'https://bghealth.co/',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
+    title: 'NPFcmris',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://cmris.npf.gov.ng/signup',
     image: porfolioImage4,
   }
 ];
